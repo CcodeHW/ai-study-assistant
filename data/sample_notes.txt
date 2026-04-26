@@ -1,0 +1,5 @@
+Artificial Intelligence is a field of computer science focused on creating systems that can perform tasks requiring human intelligence. These tasks include learning, reasoning, problem-solving, perception, and language understanding.
+
+Machine Learning is a subset of AI that allows computers to learn from data without being explicitly programmed. Common types of machine learning include supervised learning, unsupervised learning, and reinforcement learning.
+
+Natural Language Processing is a branch of AI that helps computers understand, interpret, and generate human language.
