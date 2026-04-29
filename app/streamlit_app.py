@@ -42,7 +42,7 @@ else:
 
 mode = st.selectbox(
     "Choose generation mode:",
-    ["AI-powered, Basic rule-based"]
+    ["AI-powered", "Basic rule-based"]
 )
 
 if st.button("Generate Study Material"):
