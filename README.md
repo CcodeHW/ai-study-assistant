@@ -12,4 +12,33 @@ A Python-based AI Study Assistant that helps students transform lecture notes an
 - Flashcards
 - Revision Checklist
 5. Download results as Markdown
-6. Fallback to rule-based generation (no API needed)  
+6. Fallback to rule-based generation (no API needed)
+
+# Tech Stack
+- Python
+- Streamlit (UI)
+- OpenAI API (AI Generation)
+- pypdf (PDF text extraction)
+- pytest (testing)
+
+# Project Structure 
+ai-study-assistant/
+│
+├── app/
+│   ├── ai_generator.py
+│   ├── pdf_reader.py
+│   ├── summarizer.py
+│   ├── quiz_generator.py
+│   ├── flashcard_generator.py
+│   └── utils.py
+│
+├── data/
+├── outputs/
+├── screenshots/
+├── tests/
+│
+├── streamlit_app.py
+├── README.md
+├── requirements.txt
+├── .env.example
+├── .gitignore
