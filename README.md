@@ -21,7 +21,8 @@ A Python-based AI Study Assistant that helps students transform lecture notes an
 - pypdf (PDF text extraction)
 - pytest (testing)
 
-# Project Structure 
+# Project Structure
+```
 ai-study-assistant/
 │
 ├── app/
@@ -42,3 +43,4 @@ ai-study-assistant/
 ├── requirements.txt
 ├── .env.example
 ├── .gitignore
+```
