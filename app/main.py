@@ -4,8 +4,9 @@ from app.quiz import generate_quiz_questions
 from app.flashcards_generator import generate_flashcards
 
 def main():
-    input_path = "data/sample_notes.txt"
-    output_path = "outputs/study_output.txt"
+    # ".." is needed to go up one level to access "sample_notes.txt"
+    input_path = "../data/sample_notes.txt"
+    output_path = "../outputs/study_output.txt"
 
     text = read_text_file(input_path)
 
@@ -21,7 +22,7 @@ def main():
 
     output += "Quiz Questions: \n"
     for index, question in enumerate(quiz_questions, start=1):
-        output += f"{index}/ {questions}\n"
+        output += f"{index}/ {question}\n"
 
     output += "\nFlashcards:\n"
     if flashcards:
@@ -35,5 +36,5 @@ def main():
     print("Study output generated successfully!")
     print(f"Saved to: {output_path}")
 
-    if __name__ == "__main__":
-        main()
+if __name__ == "__main__":
+    main()

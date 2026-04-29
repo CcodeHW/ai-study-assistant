@@ -1,4 +1,4 @@
-# Reads some text and automatically creates quiz questions based on keyboards it finds
+# Reads some text and automatically creates quiz questions based on keywords it finds
 
 def generate_quiz_questions(text):
     questions = []
@@ -6,7 +6,7 @@ def generate_quiz_questions(text):
     concepts = [
                 "Artificial Intelligence",
                 "Machine Learning",
-                "Supervised Learning Processing",
+                "Supervised Learning",
                 "Unsupervised Learning",
                 "Reinforcement Learning"
                 ]
