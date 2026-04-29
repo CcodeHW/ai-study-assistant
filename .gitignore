@@ -2,7 +2,7 @@
 venv/
 __pycache__/
 *.pyc
+.env
 .idea/
 *.iml
 outputs/*.txt
-.env
