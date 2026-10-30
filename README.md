@@ -1,5 +1,5 @@
 # ai-study-assistant
-A Python-based AI Study Assistant that helps students transform lecture notes and PDFs into structured study material - including summaries, key concepts, quiz questions, flashcards and revision checklist.
+A Python-based AI Study Assistant that helps students transform lecture notes and PDFs into structured study material - including summaries, key concepts, quiz questions, flashcards, and revision checklist.
 
 # Features
 1. Paste study notes directly

@@ -2,4 +2,4 @@ Artificial Intelligence is a field of computer science focused on creating syste
 
 Machine Learning is a subset of AI that allows computers to learn from data without being explicitly programmed. Common types of machine learning include supervised learning, unsupervised learning, and reinforcement learning.
 
-Natural Language Processing is a branch of AI that helps computers understand, interpret, and generate human language.
+Natural Language Processing is a branch of AI that helps computers understand, interpret and generate human language.
