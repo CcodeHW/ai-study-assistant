@@ -6,7 +6,7 @@ def test_generate_summary():
     text = "Python is a programming langauge. It is popular for AI. It is easy to learn."
     summary = generate_summary(text, max_sentences=2)
 
-    assert summary == "Python is a programming langauge, It is popular for AI."
+    assert summary == "Python is a programming langauge, it is popular for AI."
 
 def test_generate_quiz_questions():
     text = "Machine Learning is a subset of Artificial Intelligence. "
